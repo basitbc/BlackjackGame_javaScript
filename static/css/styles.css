@@ -1,0 +1,44 @@
+.container-5{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.flex1, .flex2, .flex3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex2 button{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.flex2 div{
+    border: 1px solid black;
+}
+.flex1, .flex2 {
+    background: url("../images/greentable.jpeg");
+    color: white;
+}
+.flex1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex1 div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+    text-align: center;
+}
+table, th, td{
+    padding: 10px;
+    border: 1px solid black;
+}
